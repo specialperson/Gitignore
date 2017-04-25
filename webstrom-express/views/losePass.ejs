@@ -26,7 +26,7 @@
         }
         .username,.password{
             font-size: 20px;
-            margin-top: 50px;
+            margin-top: 20px;
         }
         p{
             margin-top: 20px;
@@ -43,25 +43,26 @@
             background-color: #00B38E;
             color: white;
         }
-
+        .newpassword{
+            margin-top:20px ;
+            font-size: 20px;
+        }
     </style>
 </head>
 <body>
 
-    <div class="main">
+<div class="main">
 
-        <form action="loginSuccess" method="post">
-        <input class="username" name="username" type="text" placeholder="请输入已验证手机/邮箱">
+    <form action="losePass1" method="get">
+        <input class="username" name="username" type="text" placeholder="请输入用户名">
         <input class="password" name="password" type="text" placeholder="请输入密码">
-        <a href="losePass"><p>忘记密码?</p></a>
-        <button class="btn">登录</button>
-        </form>
-    </div>
+        <input class="newpassword" name="newpassword" type="text" placeholder="确认密码">
+        <button class="btn">保存</button>
+    </form>
+</div>
 
 </body>
 <script>
-
-
 
 
 </script>
